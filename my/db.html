@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="index.html"><img src="img/toplogo.png" alt="ポートフォリオへようこそ！"></a></h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">自己紹介</a></li>
+        <li><a href="vision.html">アプリ開発</a></li>
+        <li><a href="kaihatsu.html">開発環境</a></li>
+        <li><a href="db.html">テーブル構成</a></li>
+        <li><a href="function.html">機能紹介</a></li>
+        <li><a href="loadmap.html">開発段階</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="hazimeni-x">
+        <div class="hazime">
+          <div class="ziko">
+            <h2>テーブル設計</h2>
+            <p>使用する２つのテーブルについて</p>
+            <p>上がユーザーの名前、投稿内容、ID、投稿日時などをまとめたテーブルです</p>
+            <p>下が投稿内容の種類を紐付けてあるテーブルです</p>
+          </div>
+        </div>
+        <div class="tables">
+          <table class="tda1">
+            <tr class="tra">
+              <th>テーブル名</th>
+              <td>フィールド</td>
+              <td>型</td>
+              <td>説明</td>
+            </tr>
+            <div class="tda1">
+              <tr>
+                <th rowspan="7">SNOWRESQUE</th>
+              </tr>
+              <tr>
+                <td>ID</td>
+                <td>INT</td>
+                <td>PIMARY KEY AUTO_INCREMENT</td>
+              </tr>
+              <tr>
+                <td>TYPE</td>
+                <td>INT</td>
+                <td>投稿内容の種類</td>
+              </tr>
+              <tr>
+                <td>SOLUTION</td>
+                <td>INT</td>
+                <td>解決済みなら1,未解決なら2</td>
+              </tr>
+              <tr>
+                <td>NAME</td>
+                <td>VARCHAR(100)</td>
+                <td>投稿者名</td>
+              </tr>
+              <tr>
+                <td>TEXT</td>
+                <td>VARCHAR(100)</td>
+                <td>投稿内容</td>
+              </tr>
+              <tr>
+                <td>CREATED</td>
+                <td>DATETIME</td>
+                <td>更新日時</td>
+              </tr>
+            </div>
+          </table>
+          <table class="tda1">
+            <tr class="tra">
+              <th>テーブル名</th>
+              <td>フィールド</td>
+              <td>型</td>
+              <td>説明</td>
+            </tr>
+            <tr>
+              <th rowspan="3">RESQUETYPE</th>
+            </tr>
+            <tr>
+              <td>TYPE</td>
+              <td>TYPE</td>
+              <td>SNOWRESQUEのTYPEと紐づけ</td>
+            </tr>
+            <tr>
+              <td>DISCRIPTION</td>
+              <td>VARCHAR(100)</td>
+              <td>投稿内容の種類の具体的な内容</td>
+            </tr>
+          </table>
+        </div>
+        
+      </div>
+      <div class="foot">
+        <p><a href="function.html">次：機能紹介へ進む</a></p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;Copyright A-tomato corp. All rights reserved.</p>
+
+    </footer>
+  </div>
+
+</body>
+
+</html>

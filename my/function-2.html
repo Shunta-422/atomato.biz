@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="index.html"><img src="img/toplogo.png" alt="ポートフォリオへようこそ！"></a></h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">自己紹介</a></li>
+        <li><a href="vision.html">アプリ開発</a></li>
+        <li><a href="kaihatsu.html">開発環境</a></li>
+        <li><a href="db.html">テーブル構成</a></li>
+        <li><a href="function.html">機能紹介</a></li>
+        <li><a href="loadmap.html">開発段階</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="hazime">
+        <div class="ziko">
+          <h2>機能紹介</h2>
+          <p>ここでは実装した４つの機能を操作画面の画像とともに紹介していきます</p>
+          <p>なお、全体のソースをご覧になりたい場合は<a
+              href="https://github.com/atomatogata/portfolio1/tree/main/matsuhama">Githubまで</a>お越しください
+          </p>
+          <div class="hukan"><a href="img/hukan.png"><img src="img/hukan.png" alt=""><br>全体のファイル構成図(クリックで拡大)</a></div>
+        </div>
+        <p>以下の記載は「説明文」となっています。実際の操作に関してはデプロイしておりません、お手数ではございますが最後までお読みください。</p>
+      </div>
+
+      <!-- 外枠始め -->
+      <div class="function">
+        <!-- 大枠始め -->
+        <div class="func">
+          <h2>①一覧参照機能</h2>
+          <p>最初に表示されるトップページです</p>
+          <!-- 内枠始め -->
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/index.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>click meをクリックすると</h3>
+              <ul>
+                <li>一覧表示画面へ遷移します</li>
+                <li>同時にDBに最新情報を問い合わせ、セッションに保存、一覧表示画面で出力します</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>一覧表示画面です</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/write_1.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>表示</h3>
+              <ul>
+                <li>先ほど保存したセッションから最新情報を取得し表示します ここがこのアプリのメインページです</li>
+              </ul>
+            </div>
+          </div>
+          <!-- 内枠終わり -->
+        </div>
+        <!-- 大枠終わり -->
+        <!-- 大枠始め -->
+        <div class="func">
+          <h2>②追加機能</h2>
+          <!-- 内枠始め -->
+          <p>メインページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/write_1.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>書き込むをクリック</h3>
+              <ul>
+                <li>メインページから書き込むクリックで入力ページへ画面遷移します</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>入力ページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/write_2.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>入力して投稿するをクリック</h3>
+              <ul>
+                <li>種類：では投稿の種類を選択できます</li>
+                <li>名前と内容を入力します</li>
+                <li>値はデータベースに保管されます</li>
+                <li>まだ実装してませんが、nullを拒否する機能や、HTMLのタグなどの特殊文字をを処理する機能をつける予定です</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>メインページに戻ります</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/write_end.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>書き込み内容の反映</h3>
+              <ul>
+                <li>先ほど入力した値が反映されています</li>
+                <li>実装中はここで一番ハマってしまいました解決法が分からず、土日で先生にも聞けなかったため、最終的に質問サイトを利用して解決することができました</li>
+              </ul>
+            </div>
+          </div>
+          <!-- 内枠終わり -->
+        </div>
+        <!-- 大枠終わり -->
+        <!-- 大枠始め -->
+        <div class="func">
+          <h2>③更新機能</h2>
+          <!-- 内枠始め -->
+          <p>メインページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/update_1.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>変更したい値の選択</h3>
+              <ul>
+                <li>コメント変更したい項目にチェックをいれ削除／変更ボタンを押します</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>変更ページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/update_2.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>小見出し</h3>
+              <ul>
+                <li>先ほどの洗濯した値がデフォルト出力されています</li>
+                <li>プルダウンリストのデフォルト表示はHTMLタグに空白を入れるような構造になっているため今後改善の余地がありますが、このコードは自分で考えて試行錯誤した場所でもあるので思い入れがあります</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>変更ページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/update_3.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>値の変更、変更確定</h3>
+              <ul>
+                <li>フォルト値を変更して変更ボタンを押下</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>メインページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/update_end.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>結果表示</h3>
+              <ul>
+                <li>変更内容が更新されました</li>
+              </ul>
+            </div>
+          </div>
+          <!-- 内枠終わり -->
+        </div>
+        <!-- 大枠終わり -->
+        <!-- 大枠始め -->
+        <div class="func">
+          <h2>④削除機能</h2>
+          <!-- 内枠始め -->
+          <p>メインページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/delete_1.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>削除する値を選択</h3>
+              <ul>
+                <li>削除する値をチェックして削除ボタンをクリックします</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>チェックをつけないでクリックした場合</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/exception.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>例外表示となります</h3>
+              <ul>
+                <li>例外文を表示することがセキュリティ上よろしくないとのことでこのページは自動的にインデックスに戻るように変える予定です</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>削除ページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/delete_2.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>削除内容の表示</h3>
+              <ul>
+                <li>変更の場合と同じくデフォルト値により削除内容を確認できます</li>
+                <li>削除ボタンを押して削除します</li>
+              </ul>
+            </div>
+          </div>
+          <div id="func-next">
+            <p>↓</p>
+          </div>
+          <!-- 内枠終わり -->
+          <!-- 内枠始め -->
+          <p>メインページ</p>
+          <div class="func-box">
+            <div class="func-img">
+              <img src="img/delete_end.png" alt="">
+            </div>
+            <div class="func-text">
+              <h3>削除の確認</h3>
+              <ul>
+                <li>先ほど選んだ項目が削除されているのが確認できます</li>
+              </ul>
+            </div>
+          </div>
+          <!-- 内枠終わり -->
+        </div>
+        <!-- 大枠終わり -->
+      </div>
+      <!-- 外枠終わり -->
+      <div class="foot" id="footx">
+        <p><a href="loadmap.html">次：開発段階今の現状と今後どうしたいか</a></p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;Copyright A-tomato corp. All rights reserved.</p>
+
+    </footer>
+  </div>
+
+</body>
+
+</html>
