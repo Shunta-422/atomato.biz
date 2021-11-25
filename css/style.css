@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.circle1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: #fff;/*背景色*/
+}
+.circle2{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: #fff;/*背景色*/
+}
+.circle3{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: #fff;/*背景色*/
+}
+.circle4{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: #fff;/*背景色*/
+}
+.circle5{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: #fff;/*背景色*/
+}
+.circle6{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: #fff;/*背景色*/
+}
