@@ -5,7 +5,7 @@
   height: 80px;
   border-radius: 50%;
   border: 1px #000 solid;
-  background: #fff;/*背景色*/
+  background: skyblue;/*背景色*/
 }
 .circle2{
   width: 80px;
@@ -41,4 +41,19 @@
   border-radius: 50%;
   border: 1px #000 solid;
   background: #fff;/*背景色*/
+}
+.circle2{
+  background: #fff!important;
+}
+.circle3{
+  background: #fff!important;
+}
+.circle4{
+  background: #fff!important;
+}
+.circle5{
+  background: #fff!important;
+}
+.circle6{
+  background: #fff!important;
 }
