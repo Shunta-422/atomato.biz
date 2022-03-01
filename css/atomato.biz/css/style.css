@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.circle1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: rgb(253, 47, 40);/*背景色*/
+}
+.circle2{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: rgb(255, 168, 36);/*背景色*/
+}
+.circle3{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: rgb(255, 251, 42);/*背景色*/
+}
+.circle4{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: rgb(28, 255, 40);/*背景色*/
+}
+.circle5{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: rgb(36, 255, 244);/*背景色*/
+}
+.circle6{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: rgb(30, 71, 253);/*背景色*/
+}
+.circle7{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: rgb(182, 25, 255);/*背景色*/
+}
+
+
+
+
+/* .circle1{
+  background: #fff!important;
+} */
+/* .circle2{
+  background: #fff!important;
+} */
+/* .circle3{
+  background: #fff!important;
+}
+.circle4{
+  background: #fff!important;
+}
+.circle5{
+  background: #fff!important;
+}
+.circle6{
+  background: #fff!important;
+} */
