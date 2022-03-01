@@ -5,44 +5,50 @@
   height: 80px;
   border-radius: 50%;
   border: 1px #000 solid;
-  background: skyblue;/*背景色*/
+  background: red;/*背景色*/
 }
 .circle2{
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 1px #000 solid;
-  background: #fff;/*背景色*/
+  background: orange;/*背景色*/
 }
 .circle3{
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 1px #000 solid;
-  background: #fff;/*背景色*/
+  background: yellow;/*背景色*/
 }
 .circle4{
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 1px #000 solid;
-  background: #fff;/*背景色*/
+  background: greenyellow;/*背景色*/
 }
 .circle5{
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 1px #000 solid;
-  background: #fff;/*背景色*/
+  background: skyblue;/*背景色*/
 }
 .circle6{
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 1px #000 solid;
-  background: #fff;/*背景色*/
+  background: blue;/*背景色*/
 }
-
+.circle7{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px #000 solid;
+  background: blueviolet;/*背景色*/
+}
 
 
 
@@ -50,7 +56,7 @@
 /* .circle1{
   background: #fff!important;
 } */
-.circle2{
+/* .circle2{
   background: rgba(rgb(223, 205, 205), rgb(68, 219, 68), rgb(140, 140, 212), alpha)!important;
 }
 .circle3{
@@ -64,4 +70,4 @@
 }
 .circle6{
   background: #fff!important;
-}
+} */
