@@ -56,8 +56,13 @@
 /* .circle1{
   background: #fff!important;
 } */
+<<<<<<< HEAD
 /* .circle2{
   background: rgba(rgb(223, 205, 205), rgb(68, 219, 68), rgb(140, 140, 212), alpha)!important;
+=======
+.circle2{
+  background: #fff!important;
+>>>>>>> parent of fe6fb6d (style.css->.circle2 changed)
 }
 .circle3{
   background: #fff!important;
